@@ -1,1 +1,1 @@
-build --crosstool_top=@rules_arm_none_eabi//toolchain --host_crosstool_top=@bazel_tools//tools/cpp:toolchain --cpu=cortex-m4 --strip=never
+build --crosstool_top=@gcc_7_2018_q2_update//:toolchain --host_crosstool_top=@bazel_tools//tools/cpp:toolchain --cpu=cortex-m4 --strip=never
